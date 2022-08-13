@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="LXStudio-IDE" target="11" />
+      <module name="LXStudio-IDE" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

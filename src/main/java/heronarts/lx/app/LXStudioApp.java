@@ -19,10 +19,13 @@
 package heronarts.lx.app;
 
 import java.io.File;
+import java.net.InetAddress;
+
 import heronarts.lx.LX;
 import heronarts.lx.LXComponent;
 import heronarts.lx.LXPlugin;
 import heronarts.lx.osc.LXOscComponent;
+import heronarts.lx.output.ArtNetDatagram;
 import heronarts.lx.parameter.BoundedParameter;
 import heronarts.lx.studio.LXStudio;
 import heronarts.p4lx.ui.component.UICollapsibleSection;
@@ -105,6 +108,15 @@ public class LXStudioApp extends PApplet implements LXPlugin {
     // to the LX engine or hierarchy. This is also used in headless mode, so note that
     // you cannot assume you are working with an LXStudio class or that any UI will be
     // available.
+//    try {
+//      final String ARTNET_IP = "192.168.1.3";
+//      ArtNetDatagram datagram = new ArtNetDatagram(lx, lx.getModel());
+//      datagram.setAddress(InetAddress.getByName(ARTNET_IP));
+//      lx.addOutput(datagram);
+//    }catch(Exception e){
+//      System.out.println("Exception connecting to artnet");
+//      e.printStackTrace();
+//    }
 
     // Register custom pattern and effect types
     lx.registry.addPattern(heronarts.lx.app.pattern.AppPattern.class);
