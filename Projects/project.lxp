@@ -1,6 +1,6 @@
 {
   "version": "0.4.1",
-  "timestamp": 1660541484158,
+  "timestamp": 1660547236526,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -32,18 +32,18 @@
       {
         "jsonFixtureType": "spiral-900",
         "jsonParameters": {},
-        "id": 6476,
+        "id": 12212,
         "class": "heronarts.lx.structure.JsonFixture",
         "internal": {
           "modulationColor": 0
         },
         "parameters": {
           "label": "Spiral-900 1",
-          "x": -3.0,
-          "y": 0.0,
-          "z": 4.0,
+          "x": 896.0,
+          "y": 1220.0,
+          "z": 1224.0,
           "yaw": 0.0,
-          "pitch": 90.0,
+          "pitch": -90.0,
           "roll": 0.0,
           "scale": 1.0,
           "selected": false,
@@ -59,20 +59,20 @@
         "children": {}
       },
       {
-        "jsonFixtureType": "spiral-900",
+        "jsonFixtureType": "TopBorder",
         "jsonParameters": {},
-        "id": 9334,
+        "id": 12297,
         "class": "heronarts.lx.structure.JsonFixture",
         "internal": {
           "modulationColor": 0
         },
         "parameters": {
-          "label": "Spiral-900 2",
-          "x": 3.0,
+          "label": "TopBorder 2",
+          "x": 0.0,
           "y": 0.0,
-          "z": -4.0,
+          "z": 0.0,
           "yaw": 0.0,
-          "pitch": 90.0,
+          "pitch": 0.0,
           "roll": 0.0,
           "scale": 1.0,
           "selected": false,
@@ -83,25 +83,25 @@
           "mute": false,
           "solo": false,
           "tags": "",
-          "fixtureType": "spiral-900"
+          "fixtureType": "TopBorder"
         },
         "children": {}
       },
       {
         "jsonFixtureType": "spiral-900",
         "jsonParameters": {},
-        "id": 10241,
+        "id": 12470,
         "class": "heronarts.lx.structure.JsonFixture",
         "internal": {
           "modulationColor": 0
         },
         "parameters": {
           "label": "Spiral-900 3",
-          "x": 3.0,
-          "y": 0.0,
-          "z": 4.0,
+          "x": 896.0,
+          "y": 1220.0,
+          "z": -1224.0,
           "yaw": 0.0,
-          "pitch": 90.0,
+          "pitch": -90.0,
           "roll": 0.0,
           "scale": 1.0,
           "selected": false,
@@ -119,18 +119,18 @@
       {
         "jsonFixtureType": "spiral-900",
         "jsonParameters": {},
-        "id": 11148,
+        "id": 12472,
         "class": "heronarts.lx.structure.JsonFixture",
         "internal": {
           "modulationColor": 0
         },
         "parameters": {
           "label": "Spiral-900 4",
-          "x": -3.0,
-          "y": 0.0,
-          "z": -4.0,
+          "x": -896.0,
+          "y": 1220.0,
+          "z": -1224.0,
           "yaw": 0.0,
-          "pitch": 90.0,
+          "pitch": -90.0,
           "roll": 0.0,
           "scale": 1.0,
           "selected": false,
@@ -146,18 +146,20 @@
         "children": {}
       },
       {
-        "id": 12120,
-        "class": "heronarts.lx.structure.StripFixture",
+        "jsonFixtureType": "spiral-900",
+        "jsonParameters": {},
+        "id": 12474,
+        "class": "heronarts.lx.structure.JsonFixture",
         "internal": {
           "modulationColor": 0
         },
         "parameters": {
-          "label": "Strip 5",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0,
+          "label": "Spiral-900 5",
+          "x": -896.0,
+          "y": 1220.0,
+          "z": 1224.0,
           "yaw": 0.0,
-          "pitch": 0.0,
+          "pitch": -90.0,
           "roll": 0.0,
           "scale": 1.0,
           "selected": true,
@@ -167,21 +169,37 @@
           "identify": false,
           "mute": false,
           "solo": false,
-          "tags": "strip",
-          "protocol": 0,
-          "byteOrder": 0,
-          "transport": 0,
-          "reverse": false,
-          "host": "127.0.0.1",
-          "port": 7890,
-          "dmxChannel": 0,
-          "artNetUniverse": 0,
-          "opcChannel": 0,
-          "opcOffset": 0,
-          "ddpDataOffset": 0,
-          "kinetPort": 1,
-          "numPoints": 30,
-          "spacing": 5.0
+          "tags": "",
+          "fixtureType": "spiral-900"
+        },
+        "children": {}
+      },
+      {
+        "jsonFixtureType": "BottomBorder",
+        "jsonParameters": {},
+        "id": 12538,
+        "class": "heronarts.lx.structure.JsonFixture",
+        "internal": {
+          "modulationColor": 0
+        },
+        "parameters": {
+          "label": "BottomBorder 6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "yaw": 0.0,
+          "pitch": 0.0,
+          "roll": 0.0,
+          "scale": 1.0,
+          "selected": false,
+          "deactivate": false,
+          "enabled": false,
+          "brightness": 1.0,
+          "identify": false,
+          "mute": false,
+          "solo": false,
+          "tags": "",
+          "fixtureType": "BottomBorder"
         },
         "children": {}
       }
@@ -517,7 +535,7 @@
                     "exp": 0.0
                   },
                   "children": {},
-                  "basis": 0.10739621616217213
+                  "basis": 0.113396216165678
                 }
               },
               {
@@ -955,10 +973,10 @@
               "threshold": 0.8,
               "floor": 0.75,
               "decay": 400.0,
-              "minFreq": 124.14778137207031,
+              "minFreq": 120.0,
               "maxFreq": 2532.571044921875,
               "gate": false,
-              "average": 0.6552493117766939,
+              "average": 0.3944983762137786,
               "tap": false
             },
             "children": {}
@@ -1130,7 +1148,7 @@
               "band-1": 0.0,
               "band-2": 0.0,
               "band-3": 0.0,
-              "band-4": 0.005711498661883474,
+              "band-4": 0.0,
               "band-5": 0.0,
               "band-6": 0.0,
               "band-7": 0.0,
@@ -1202,9 +1220,9 @@
         "centerPoint": false,
         "camera": {
           "active": true,
-          "radius": 162.02438201269652,
-          "theta": -2.6960687646642327,
-          "phi": -0.08779728971421719,
+          "radius": 6382.982074673437,
+          "theta": -1.3462589113041759,
+          "phi": 0.535743017680943,
           "x": 0.0,
           "y": 0.0,
           "z": 3.1381020545959473
@@ -1212,18 +1230,18 @@
         "cue": [
           {
             "active": true,
-            "radius": 162.02438201269652,
-            "theta": -2.6960687646642327,
-            "phi": -0.08779728971421719,
+            "radius": 6382.982074673437,
+            "theta": -1.3462589113041759,
+            "phi": 0.535743017680943,
             "x": 0.0,
             "y": 0.0,
             "z": 3.1381020545959473
           },
           {
             "active": true,
-            "radius": 15.747116982202966,
-            "theta": 0.08716749586164951,
-            "phi": -0.028071177192032337,
+            "radius": 1619.91795410854,
+            "theta": -0.103956020437181,
+            "phi": -0.01015335600823164,
             "x": 0.0,
             "y": 0.0,
             "z": 3.1381020545959473
@@ -1270,7 +1288,7 @@
           "pointSize": 3.0
         },
         "grid": {
-          "visible": false,
+          "visible": true,
           "spacing": 100.0,
           "planes": 1,
           "size": 10,
