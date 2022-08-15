@@ -8,21 +8,21 @@ from collections import OrderedDict
 total_leds = 900
 
 # generate coordinates
-# z = 2 * PI * current_led_num / total_leds
-# x = cos(6 * z)
-# y = sin(6 * z)
+# y = 2 * PI * current_led_num / total_leds
+# x = cos(6 * y)
+# z = sin(6 * y)
 components_data = []
 point_data = OrderedDict()
 point_data['type'] = 'points'
 point_data['coords'] = []
-scalar = 270
+height_scalar = 2.6
+density_scalar = 2
 for n in range(total_leds):
-	z = (2 * math.pi * n / total_leds) * scalar
-	x = math.cos(6 * z)
-	y = math.sin(6 * z)
-	coords = {'x': x, 'y': y, 'z': z}
-	point_data['type'] = 'points'
-	point_data['coords'].append({'x': x, 'y': y, 'z': z})
+	y = (2 * math.pi * n / total_leds) * height_scalar
+	x = math.cos(density_scalar * y)
+	z = math.sin(density_scalar * y)
+	coords = {'x': x, 'z': z, 'y': y}
+	point_data['coords'].append({'x': x, 'z': z, 'y': y})
 components_data.append(point_data)
 
 lxf_dict = OrderedDict()
