@@ -1,6 +1,6 @@
 {
   "version": "0.4.1",
-  "timestamp": 1660547236526,
+  "timestamp": 1660549145277,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -43,9 +43,9 @@
           "y": 1220.0,
           "z": 1224.0,
           "yaw": 0.0,
-          "pitch": -90.0,
+          "pitch": 0.0,
           "roll": 0.0,
-          "scale": 1.0,
+          "scale": 100.0,
           "selected": false,
           "deactivate": false,
           "enabled": false,
@@ -101,9 +101,9 @@
           "y": 1220.0,
           "z": -1224.0,
           "yaw": 0.0,
-          "pitch": -90.0,
+          "pitch": 0.0,
           "roll": 0.0,
-          "scale": 1.0,
+          "scale": 100.0,
           "selected": false,
           "deactivate": false,
           "enabled": false,
@@ -130,9 +130,9 @@
           "y": 1220.0,
           "z": -1224.0,
           "yaw": 0.0,
-          "pitch": -90.0,
+          "pitch": 0.0,
           "roll": 0.0,
-          "scale": 1.0,
+          "scale": 100.0,
           "selected": false,
           "deactivate": false,
           "enabled": false,
@@ -159,9 +159,9 @@
           "y": 1220.0,
           "z": 1224.0,
           "yaw": 0.0,
-          "pitch": -90.0,
+          "pitch": 0.0,
           "roll": 0.0,
-          "scale": 1.0,
+          "scale": 100.0,
           "selected": true,
           "deactivate": false,
           "enabled": false,
@@ -432,11 +432,11 @@
                   "colorMode": 0,
                   "blendMode": 0,
                   "color1/brightness": 100.0,
-                  "color1/saturation": 91.66666412353516,
-                  "color1/hue": 14.880950311198822,
-                  "color2/brightness": 40.476189367473125,
-                  "color2/saturation": 88.33333587646484,
-                  "color2/hue": 208.97618872486055,
+                  "color1/saturation": 100.0,
+                  "color1/hue": 294.0,
+                  "color2/brightness": 19.04761753976345,
+                  "color2/saturation": 99.16666412353516,
+                  "color2/hue": 219.0,
                   "paletteIndex": 1,
                   "paletteStops": 5
                 },
@@ -535,7 +535,7 @@
                     "exp": 0.0
                   },
                   "children": {},
-                  "basis": 0.113396216165678
+                  "basis": 0.8643962161668689
                 }
               },
               {
@@ -976,7 +976,7 @@
               "minFreq": 120.0,
               "maxFreq": 2532.571044921875,
               "gate": false,
-              "average": 0.3944983762137786,
+              "average": 0.44824803973243066,
               "tap": false
             },
             "children": {}
@@ -1002,30 +1002,7 @@
               "label": "LX",
               "enabled": true,
               "polarity": 0,
-              "range": 0.4750000089406967
-            },
-            "children": {}
-          },
-          {
-            "source": {
-              "id": 12096,
-              "path": "/modulation/modulator/1"
-            },
-            "target": {
-              "componentId": 7383,
-              "parameterPath": "color1/brightness",
-              "path": "/mixer/channel/1/effect/1/color1/brightness"
-            },
-            "id": 12109,
-            "class": "heronarts.lx.modulation.LXCompoundModulation",
-            "internal": {
-              "modulationColor": 0
-            },
-            "parameters": {
-              "label": "LX",
-              "enabled": true,
-              "polarity": 0,
-              "range": 0.4875000072643161
+              "range": 1.0
             },
             "children": {}
           }
@@ -1220,9 +1197,9 @@
         "centerPoint": false,
         "camera": {
           "active": true,
-          "radius": 6382.982074673437,
-          "theta": -1.3462589113041759,
-          "phi": 0.535743017680943,
+          "radius": 7077.203337915964,
+          "theta": -3.329165419563651,
+          "phi": 0.057934217154979706,
           "x": 0.0,
           "y": 0.0,
           "z": 3.1381020545959473
@@ -1230,9 +1207,9 @@
         "cue": [
           {
             "active": true,
-            "radius": 6382.982074673437,
-            "theta": -1.3462589113041759,
-            "phi": 0.535743017680943,
+            "radius": 7077.203337915964,
+            "theta": -3.329165419563651,
+            "phi": 0.057934217154979706,
             "x": 0.0,
             "y": 0.0,
             "z": 3.1381020545959473
