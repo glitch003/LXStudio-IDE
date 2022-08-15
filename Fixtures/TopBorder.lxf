@@ -1,0 +1,15 @@
+{
+ "label": "TopBorder",
+   "tags": [
+     "topborder"
+   ],
+  "strips": [
+    
+    /* Top square */
+    { "numPoints": 112, "spacing": 16, "x": -896, "y": 3050, "z": -1224 },
+    { "numPoints": 153, "spacing": 16, "x": 896, "y": 3050, "z": -1224, "yaw": -90 },
+    { "numPoints": 112, "spacing": 16, "x": 896, "y": 3050, "z": 1224, "yaw": -180 },
+    { "numPoints": 153, "spacing": 16, "x": -896, "y": 3050, "z": 1224, "yaw": -270 },
+    
+  ]
+}
