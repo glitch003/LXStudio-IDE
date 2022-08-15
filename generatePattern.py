@@ -5,7 +5,7 @@ from collections import OrderedDict
 
 
 # provide total number of LEDs and path to LXStudio-IDE project directory
-total_leds = 900
+total_leds = 1500
 
 # generate coordinates
 # y = 2 * PI * current_led_num / total_leds
@@ -30,5 +30,5 @@ lxf_dict['label'] = 'Spiral-%d' % total_leds
 lxf_dict['tags'] = ['custom', 'glorb', 'spiral']
 lxf_dict['components'] = components_data
 
-with open('Fixtures/spiral-{0}.lxf'.format(total_leds), 'w+') as f:
+with open('Fixtures/spiral-column.lxf', 'w+') as f:
 	json.dump(lxf_dict, f, indent=2)
