@@ -41,7 +41,7 @@ import heronarts.lx.app.FixtureMap;
 import java.util.List;
 import java.util.Map;
 
-@LXCategory(LXCategory.TEXTURE)
+@LXCategory("GLORB")
 public class Ants extends LXPattern {
 
     private static final LXWaveshape[] WAVESHAPES = {
