@@ -11,6 +11,9 @@ Please note that LX Studio is not open-source software. The license grants permi
 
 [LX Studio](http://lx.studio/) is a digital lighting workstation, bringing concepts from digital audio workstations and modular synthesis into the realm of LED lighting control. Generative patterns, interactive inputs, and flexible parameter-driven modulation — a rich environment for lighting composition and performance.
 
+## Fork Info
+This fork of LX Studio is designed to run the LEDs for Glorb, a Burning Man Art Car.  Some patterns were borrowed or modified from https://github.com/titanicsend/LXStudio-TE.
+
 ### Getting Started ###
 
 LX Studio runs using the Processing 4 framework. This version of the project directly embeds those dependencies and may be run from within a Java IDE,
