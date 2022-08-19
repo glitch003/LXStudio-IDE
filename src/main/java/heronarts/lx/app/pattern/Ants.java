@@ -54,9 +54,8 @@ public class Ants extends LXPattern {
 
     public Ants(LX lx) {
         super(lx);
-        this.motion.clockMode.setValue(ClockMode.SYNC);
+//        this.motion.clockMode.setValue(ClockMode.SYNC);
         startModulator(this.motion);
-        setRemoteControls();
     }
 
     @Override
