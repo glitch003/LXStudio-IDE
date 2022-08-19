@@ -72,7 +72,7 @@ public class Ants extends LXPattern {
                     LXModel child = model.children[childIndex];
                     totalPointsInChildren += child.points.length;
                 }
-                int turnOn = (int) LXUtils.lerp(0, totalPointsInChildren, this.motion.getValue());
+                double turnOn = LXUtils.lerp(0, totalPointsInChildren, this.motion.getValue());
 //                System.out.println("turnOn: " + turnOn);
                 for (Integer childIndex : FixtureMap.fixtures.get(fixtureName)) {
                     LXModel child = model.children[childIndex];
@@ -82,7 +82,6 @@ public class Ants extends LXPattern {
                         } else {
                             colors[p.index] = LXColor.BLACK;
                         }
-//                        colors[p.index] = LXColor.gray(100);
                     }
                 }
             }
