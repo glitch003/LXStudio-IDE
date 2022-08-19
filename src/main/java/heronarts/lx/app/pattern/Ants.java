@@ -61,11 +61,9 @@ public class Ants extends LXPattern {
 
     @Override
     protected void run(double deltaMs) {
-//        this.motion.periodFast.setValue(this.period.getValue());
 
 //        System.out.println("model.children.length" + model.children.length);
 //        System.out.println("motion: " + motion);
-        // all pixels off
         for (Map.Entry<String, List<String>> fixtureNames : FixtureMap.groups.entrySet()) {
             for (String fixtureName : fixtureNames.getValue()) {
                 int totalPointsInChildren = 0;
