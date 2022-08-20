@@ -114,7 +114,7 @@ public class LXStudioApp extends PApplet implements LXPlugin {
 
         // Register custom pattern and effect types
         lx.registry.addPattern(heronarts.lx.app.pattern.AppPattern.class);
-        lx.registry.addPattern(heronarts.lx.app.pattern.Ants.class);
+        lx.registry.addPattern(heronarts.lx.app.pattern.PumpIt.class);
         lx.registry.addPattern(heronarts.lx.app.pattern.BasicRainbowPattern.class);
         lx.registry.addPattern(heronarts.lx.app.pattern.AlternatingPattern.class);
         lx.registry.addPattern(heronarts.lx.app.pattern.BouncingDots.class);
