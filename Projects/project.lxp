@@ -1,6 +1,6 @@
 {
   "version": "0.4.2-SNAPSHOT",
-  "timestamp": 1660900499019,
+  "timestamp": 1660979038736,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -110,14 +110,14 @@
           "mute": false,
           "solo": false,
           "tags": "strip spiral",
-          "protocol": 0,
+          "protocol": 1,
           "byteOrder": 0,
           "transport": 0,
           "reverse": false,
-          "host": "127.0.0.1",
+          "host": "192.168.1.2",
           "port": 7890,
           "dmxChannel": 0,
-          "artNetUniverse": 0,
+          "artNetUniverse": 10,
           "opcChannel": 0,
           "opcOffset": 0,
           "ddpDataOffset": 0,
@@ -152,14 +152,14 @@
           "mute": false,
           "solo": false,
           "tags": "strip spiral",
-          "protocol": 0,
+          "protocol": 1,
           "byteOrder": 0,
           "transport": 0,
           "reverse": false,
-          "host": "127.0.0.1",
+          "host": "192.168.1.2",
           "port": 7890,
           "dmxChannel": 0,
-          "artNetUniverse": 0,
+          "artNetUniverse": 20,
           "opcChannel": 0,
           "opcOffset": 0,
           "ddpDataOffset": 0,
@@ -194,14 +194,14 @@
           "mute": false,
           "solo": false,
           "tags": "strip spiral",
-          "protocol": 0,
+          "protocol": 1,
           "byteOrder": 0,
           "transport": 0,
           "reverse": false,
-          "host": "127.0.0.1",
+          "host": "192.168.1.2",
           "port": 7890,
           "dmxChannel": 0,
-          "artNetUniverse": 0,
+          "artNetUniverse": 30,
           "opcChannel": 0,
           "opcOffset": 0,
           "ddpDataOffset": 0,
@@ -236,14 +236,14 @@
           "mute": false,
           "solo": false,
           "tags": "strip spiral",
-          "protocol": 0,
+          "protocol": 1,
           "byteOrder": 0,
           "transport": 0,
           "reverse": false,
-          "host": "127.0.0.1",
+          "host": "192.168.1.2",
           "port": 7890,
           "dmxChannel": 0,
-          "artNetUniverse": 0,
+          "artNetUniverse": 40,
           "opcChannel": 0,
           "opcOffset": 0,
           "ddpDataOffset": 0,
@@ -278,14 +278,14 @@
           "mute": false,
           "solo": false,
           "tags": "strip spiral",
-          "protocol": 0,
+          "protocol": 1,
           "byteOrder": 0,
           "transport": 0,
           "reverse": false,
-          "host": "127.0.0.1",
+          "host": "192.168.1.2",
           "port": 7890,
           "dmxChannel": 0,
-          "artNetUniverse": 0,
+          "artNetUniverse": 50,
           "opcChannel": 0,
           "opcOffset": 0,
           "ddpDataOffset": 0,
@@ -320,14 +320,14 @@
           "mute": false,
           "solo": false,
           "tags": "strip spiral",
-          "protocol": 0,
+          "protocol": 1,
           "byteOrder": 0,
           "transport": 0,
           "reverse": false,
-          "host": "127.0.0.1",
+          "host": "192.168.1.2",
           "port": 7890,
           "dmxChannel": 0,
-          "artNetUniverse": 0,
+          "artNetUniverse": 60,
           "opcChannel": 0,
           "opcOffset": 0,
           "ddpDataOffset": 0,
@@ -362,14 +362,14 @@
           "mute": false,
           "solo": false,
           "tags": "strip spiral",
-          "protocol": 0,
+          "protocol": 1,
           "byteOrder": 0,
           "transport": 0,
           "reverse": false,
-          "host": "127.0.0.1",
+          "host": "192.168.1.2",
           "port": 7890,
           "dmxChannel": 0,
-          "artNetUniverse": 0,
+          "artNetUniverse": 70,
           "opcChannel": 0,
           "opcOffset": 0,
           "ddpDataOffset": 0,
@@ -404,14 +404,14 @@
           "mute": false,
           "solo": false,
           "tags": "strip spiral",
-          "protocol": 0,
+          "protocol": 1,
           "byteOrder": 0,
           "transport": 0,
           "reverse": false,
-          "host": "127.0.0.1",
+          "host": "192.168.1.2",
           "port": 7890,
           "dmxChannel": 0,
-          "artNetUniverse": 0,
+          "artNetUniverse": 80,
           "opcChannel": 0,
           "opcOffset": 0,
           "ddpDataOffset": 0,
@@ -784,7 +784,7 @@
               "transitionEnabled": false,
               "transitionTimeSecs": 10.0,
               "transitionBlendMode": 0,
-              "focusedPattern": 6,
+              "focusedPattern": 2,
               "triggerPatternCycle": false
             },
             "children": {},
@@ -797,7 +797,7 @@
                   "expanded": true,
                   "expandedCue": true,
                   "expandedAux": true,
-                  "modulationExpanded": true
+                  "modulationExpanded": false
                 },
                 "parameters": {
                   "label": "Colorize",
@@ -837,7 +837,7 @@
               }
             ],
             "clips": [],
-            "patternIndex": 6,
+            "patternIndex": 2,
             "patterns": [
               {
                 "id": 34,
@@ -914,7 +914,7 @@
                     "exp": 0.0
                   },
                   "children": {},
-                  "basis": 0.49003168461448116
+                  "basis": 0.9627613422389055
                 }
               },
               {
@@ -978,7 +978,7 @@
               },
               {
                 "id": 13000,
-                "class": "heronarts.lx.app.pattern.Ants",
+                "class": "heronarts.lx.app.pattern.PumpIt",
                 "internal": {
                   "modulationColor": 0,
                   "expanded": true,
@@ -988,8 +988,9 @@
                   "autoCycleEligible": true
                 },
                 "parameters": {
-                  "label": "Ants",
-                  "recall": false
+                  "label": "PumpIt",
+                  "recall": false,
+                  "rate": 4068.999911285937
                 },
                 "children": {
                   "modulation": {
@@ -1010,7 +1011,7 @@
                 "deviceVersion": -1,
                 "motion": {
                   "id": 13105,
-                  "class": "heronarts.lx.modulator.VariableLFO",
+                  "class": "heronarts.lx.modulator.SinLFO",
                   "internal": {
                     "modulationColor": 0
                   },
@@ -1021,19 +1022,10 @@
                     "loop": true,
                     "tempoSync": true,
                     "tempoMultiplier": 5,
-                    "tempoLock": true,
-                    "clockMode": 2,
-                    "periodFast": 1000.0,
-                    "periodSlow": 10000.0,
-                    "wave": 0,
-                    "skew": 0.0,
-                    "shape": 0.0,
-                    "bias": 0.0,
-                    "phase": 0.0,
-                    "exp": 0.0
+                    "tempoLock": true
                   },
                   "children": {},
-                  "basis": 0.0
+                  "basis": 0.6040000000000205
                 }
               },
               {
@@ -1159,8 +1151,8 @@
                   "color/brightness": 100.0,
                   "color/saturation": 0.0,
                   "color/hue": 0.0,
-                  "rate": 0.2103258347431444,
-                  "width": 299
+                  "rate": 0.13168278185442836,
+                  "width": 132
                 },
                 "children": {
                   "modulation": {
@@ -1475,9 +1467,9 @@
         "centerPoint": false,
         "camera": {
           "active": true,
-          "radius": 7263.97071339789,
-          "theta": 1.641249131411314,
-          "phi": 0.748901670332998,
+          "radius": 7718.4874389415245,
+          "theta": 2.0966265834867954,
+          "phi": 0.6465696594677866,
           "x": 0.0,
           "y": 0.0,
           "z": 3.1381020545959473
@@ -1485,9 +1477,9 @@
         "cue": [
           {
             "active": true,
-            "radius": 7263.97071339789,
-            "theta": 1.641249131411314,
-            "phi": 0.748901670332998,
+            "radius": 7718.4874389415245,
+            "theta": 2.0966265834867954,
+            "phi": 0.6465696594677866,
             "x": 0.0,
             "y": 0.0,
             "z": 3.1381020545959473

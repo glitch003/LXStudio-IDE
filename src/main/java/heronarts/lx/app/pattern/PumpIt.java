@@ -26,35 +26,33 @@ import heronarts.lx.color.LXColor;
 import heronarts.lx.model.LXModel;
 import heronarts.lx.model.LXPoint;
 import heronarts.lx.modulator.LXWaveshape;
+import heronarts.lx.modulator.SinLFO;
 import heronarts.lx.modulator.VariableLFO;
 import heronarts.lx.parameter.CompoundParameter;
-import heronarts.lx.parameter.DiscreteParameter;
-import heronarts.lx.parameter.ObjectParameter;
 import heronarts.lx.pattern.LXPattern;
-import heronarts.lx.studio.LXStudio.UI;
-import heronarts.lx.studio.ui.device.UIDevice;
-import heronarts.lx.studio.ui.device.UIDeviceControls;
 import heronarts.lx.utils.LXUtils;
-import heronarts.lx.modulator.LXVariablePeriodModulator.ClockMode;
 import heronarts.lx.app.FixtureMap;
 
 import java.util.List;
 import java.util.Map;
 
 @LXCategory("GLORB")
-public class Ants extends LXPattern {
+public class PumpIt extends LXPattern {
 
-    private static final LXWaveshape[] WAVESHAPES = {
-            LXWaveshape.SIN,
-            LXWaveshape.TRI,
-            LXWaveshape.UP,
-            LXWaveshape.DOWN
-    };
-    public final VariableLFO motion = new VariableLFO("Motion", WAVESHAPES);
+    //    private static final LXWaveshape[] WAVESHAPES = {
+//            LXWaveshape.SIN,
+//            LXWaveshape.TRI,
+//            LXWaveshape.UP,
+//            LXWaveshape.DOWN
+//    };
+//    public final VariableLFO motion = new VariableLFO("Motion", WAVESHAPES);
+    public final CompoundParameter rate = new CompoundParameter("Rate", 3000, 5000, 100);
+    public final SinLFO motion = new SinLFO(0, 1, rate);
 
-    public Ants(LX lx) {
+    public PumpIt(LX lx) {
         super(lx);
 //        this.motion.clockMode.setValue(ClockMode.SYNC);
+        addParameter("rate", this.rate);
         startModulator(this.motion);
     }
 
