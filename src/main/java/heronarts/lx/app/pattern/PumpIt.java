@@ -46,7 +46,7 @@ public class PumpIt extends LXPattern {
 //            LXWaveshape.DOWN
 //    };
 //    public final VariableLFO motion = new VariableLFO("Motion", WAVESHAPES);
-    public final CompoundParameter rate = new CompoundParameter("Rate", 3000, 5000, 100);
+    public final CompoundParameter rate = new CompoundParameter("Rate", 3000, 20000, 100);
     public final SinLFO motion = new SinLFO(0, 1, rate);
 
     public PumpIt(LX lx) {
@@ -88,19 +88,6 @@ public class PumpIt extends LXPattern {
 //        }
     }
 
-    private static final String KEY_MOTION = "motion";
-
-    @Override
-    public void save(LX lx, JsonObject obj) {
-        super.save(lx, obj);
-        obj.add(KEY_MOTION, LXSerializable.Utils.toObject(this.motion));
-    }
-
-    @Override
-    public void load(LX lx, JsonObject obj) {
-        super.load(lx, obj);
-        LXSerializable.Utils.loadObject(lx, this.motion, obj, KEY_MOTION);
-    }
 
     /**
      * Implement this method from the UIDeviceControls interface to build a custom UI for

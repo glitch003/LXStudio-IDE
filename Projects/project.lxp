@@ -1,6 +1,6 @@
 {
   "version": "0.4.2-SNAPSHOT",
-  "timestamp": 1660979038736,
+  "timestamp": 1661031341422,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -784,7 +784,7 @@
               "transitionEnabled": false,
               "transitionTimeSecs": 10.0,
               "transitionBlendMode": 0,
-              "focusedPattern": 2,
+              "focusedPattern": 6,
               "triggerPatternCycle": false
             },
             "children": {},
@@ -837,7 +837,7 @@
               }
             ],
             "clips": [],
-            "patternIndex": 2,
+            "patternIndex": 6,
             "patterns": [
               {
                 "id": 34,
@@ -990,7 +990,7 @@
                 "parameters": {
                   "label": "PumpIt",
                   "recall": false,
-                  "rate": 4068.999911285937
+                  "rate": 19005.000022239983
                 },
                 "children": {
                   "modulation": {
@@ -1008,25 +1008,7 @@
                     "triggers": []
                   }
                 },
-                "deviceVersion": -1,
-                "motion": {
-                  "id": 13105,
-                  "class": "heronarts.lx.modulator.SinLFO",
-                  "internal": {
-                    "modulationColor": 0
-                  },
-                  "parameters": {
-                    "label": "Motion",
-                    "running": true,
-                    "trigger": false,
-                    "loop": true,
-                    "tempoSync": true,
-                    "tempoMultiplier": 5,
-                    "tempoLock": true
-                  },
-                  "children": {},
-                  "basis": 0.6040000000000205
-                }
+                "deviceVersion": -1
               },
               {
                 "id": 13062,
@@ -1247,7 +1229,7 @@
               "minFreq": 120.0,
               "maxFreq": 2532.571044921875,
               "gate": false,
-              "average": 0.0,
+              "average": 0.7864921060046658,
               "tap": false
             },
             "children": {}
@@ -1393,21 +1375,21 @@
               "attack": 10.0,
               "release": 100.0,
               "slope": 4.5,
-              "band-1": 0.0,
-              "band-2": 0.0,
-              "band-3": 0.0,
-              "band-4": 0.0,
-              "band-5": 0.0,
-              "band-6": 0.0,
-              "band-7": 0.0,
-              "band-8": 0.0,
-              "band-9": 0.0,
-              "band-10": 0.0,
-              "band-11": 0.0,
-              "band-12": 0.0,
-              "band-13": 0.0,
-              "band-14": 0.0,
-              "band-15": 0.0,
+              "band-1": 0.10444474897197875,
+              "band-2": 0.23021264932188712,
+              "band-3": 0.3113082763987992,
+              "band-4": 0.39736205006940073,
+              "band-5": 0.36016836442354616,
+              "band-6": 0.3137518893187221,
+              "band-7": 0.304369512153158,
+              "band-8": 0.39599759376662513,
+              "band-9": 0.41625885932788265,
+              "band-10": 0.4149035500212518,
+              "band-11": 0.380816389235772,
+              "band-12": 0.39256606158626395,
+              "band-13": 0.3697032932708392,
+              "band-14": 0.32180440253323006,
+              "band-15": 0.17907110315294028,
               "band-16": 0.0
             },
             "children": {}
