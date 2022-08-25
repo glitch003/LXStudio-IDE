@@ -1,6 +1,6 @@
 {
   "version": "0.4.2-SNAPSHOT",
-  "timestamp": 1661031341422,
+  "timestamp": 1661049091890,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -801,7 +801,7 @@
                 },
                 "parameters": {
                   "label": "Colorize",
-                  "enabled": false,
+                  "enabled": true,
                   "source": 1,
                   "gradientHue": 0.0,
                   "gradientSaturation": 0.0,
@@ -1218,7 +1218,7 @@
               "label": "Beat",
               "running": true,
               "trigger": false,
-              "gain": 23.999999892711656,
+              "gain": 7.679999892711643,
               "range": 39.599999999999994,
               "attack": 10.0,
               "release": 19.59999912381173,
@@ -1229,7 +1229,7 @@
               "minFreq": 120.0,
               "maxFreq": 2532.571044921875,
               "gate": false,
-              "average": 0.7864921060046658,
+              "average": 0.6400574010246041,
               "tap": false
             },
             "children": {}
@@ -1256,6 +1256,29 @@
               "enabled": true,
               "polarity": 0,
               "range": 1.0
+            },
+            "children": {}
+          },
+          {
+            "source": {
+              "id": 12096,
+              "path": "/modulation/modulator/1"
+            },
+            "target": {
+              "componentId": 13307,
+              "parameterPath": "rate",
+              "path": "/mixer/channel/1/pattern/7/rate"
+            },
+            "id": 13412,
+            "class": "heronarts.lx.modulation.LXCompoundModulation",
+            "internal": {
+              "modulationColor": 0
+            },
+            "parameters": {
+              "label": "LX",
+              "enabled": true,
+              "polarity": 0,
+              "range": 0.8000000175088644
             },
             "children": {}
           }
@@ -1375,21 +1398,21 @@
               "attack": 10.0,
               "release": 100.0,
               "slope": 4.5,
-              "band-1": 0.10444474897197875,
-              "band-2": 0.23021264932188712,
-              "band-3": 0.3113082763987992,
-              "band-4": 0.39736205006940073,
-              "band-5": 0.36016836442354616,
-              "band-6": 0.3137518893187221,
-              "band-7": 0.304369512153158,
-              "band-8": 0.39599759376662513,
-              "band-9": 0.41625885932788265,
-              "band-10": 0.4149035500212518,
-              "band-11": 0.380816389235772,
-              "band-12": 0.39256606158626395,
-              "band-13": 0.3697032932708392,
-              "band-14": 0.32180440253323006,
-              "band-15": 0.17907110315294028,
+              "band-1": 0.4868974059968274,
+              "band-2": 0.5888593489453822,
+              "band-3": 0.6485101878181336,
+              "band-4": 0.71538141805584,
+              "band-5": 0.6509458383352815,
+              "band-6": 0.5533426652628322,
+              "band-7": 0.3886362568153675,
+              "band-8": 0.30044620250379916,
+              "band-9": 0.20650001962838482,
+              "band-10": 0.11633121089959886,
+              "band-11": 0.050529823622186165,
+              "band-12": 0.0,
+              "band-13": 0.0,
+              "band-14": 0.0,
+              "band-15": 0.0,
               "band-16": 0.0
             },
             "children": {}
