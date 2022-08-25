@@ -51,30 +51,37 @@ public class LXStudioApp extends PApplet implements LXPlugin {
 
     private static boolean HAS_WINDOW_POSITION = false;
 
-    @Override
-    public void settings() {
-        if (FULLSCREEN) {
-            fullScreen(PApplet.P3D);
-        } else {
-            size(WIDTH, HEIGHT, PApplet.P3D);
-        }
-        pixelDensity(displayDensity());
+
+  @Override
+  public void settings() {
+    if (FULLSCREEN) {
+      fullScreen(PApplet.P3D);
+    } else {
+      size(WIDTH, HEIGHT, PApplet.P3D);
     }
+    pixelDensity(displayDensity());
+  }
 
-    @Override
-    public void setup() {
-        LXStudio.Flags flags = new LXStudio.Flags(this);
-        flags.resizable = true;
-        flags.useGLPointCloud = false;
-        flags.startMultiThreaded = true;
+  @Override
+  public void setup() {
+    LXStudio.Flags flags = new LXStudio.Flags(this);
+    flags.resizable = true;
+    flags.useGLPointCloud = false;
+    flags.startMultiThreaded = true;
 
-        new LXStudio(this, flags);
-        this.surface.setTitle(WINDOW_TITLE);
-        if (!FULLSCREEN && HAS_WINDOW_POSITION) {
-            this.surface.setLocation(WINDOW_X, WINDOW_Y);
-        }
+    // NOTE: it seems like on Windows systems P4LX can end
+    // up setting this to the "lib" folder depending on how
+    // dependency JARs were loaded. Explicitly set it to "."
+    // here and be sure to run explicitly from root folder
+    flags.mediaPath = ".";
 
+    new LXStudio(this, flags);
+    this.surface.setTitle(WINDOW_TITLE);
+    if (!FULLSCREEN && HAS_WINDOW_POSITION) {
+      this.surface.setLocation(WINDOW_X, WINDOW_Y);
     }
+  }
+
 
     public static class MyComponent extends LXComponent implements LXOscComponent {
 
