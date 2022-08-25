@@ -50,15 +50,18 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="lx-0.4.2-SNAPSHOT-jar-with-dependencies" level="project" />
+    <orderEntry type="library" name="p4lx-0.4.2-SNAPSHOT-jar-with-dependencies" level="project" />
+    <orderEntry type="library" name="lxstudio-0.4.2-SNAPSHOT-jar-with-dependencies" level="project" />
+    <orderEntry type="library" name="Maven: com.heronarts:lx:0.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.9" level="project" />
     <orderEntry type="library" name="Maven: uk.co.xfactory-librarians:coremidi4j:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.jmdns:jmdns:3.5.7" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: com.heronarts:p4lx:0.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.heronarts:lxstudio:0.4.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.processing:core:4.0b8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jogamp.jogl:jogl-all:4.0b8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jogamp.gluegen:gluegen-rt-main:4.0b8" level="project" />
-    <orderEntry type="library" name="lx-0.4.2-SNAPSHOT-jar-with-dependencies" level="project" />
-    <orderEntry type="library" name="p4lx-0.4.2-SNAPSHOT-jar-with-dependencies" level="project" />
-    <orderEntry type="library" name="lxstudio-0.4.2-SNAPSHOT-jar-with-dependencies" level="project" />
   </component>
 </module>
